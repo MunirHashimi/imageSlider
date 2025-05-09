@@ -2,7 +2,7 @@ const slider = document.getElementById('slider');
 const overlay = document.getElementById('overlay');
 const sliderLine = document.getElementById('slider-line');
 
-slider.addEventListener('mousemove', (e) => {
+slider.addEventListener('mouseover', (e) => {
     const rect = slider.getBoundingClientRect();
     let x = e.clientX - rect.left;
 
